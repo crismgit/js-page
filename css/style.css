@@ -1,0 +1,161 @@
+body{
+box-sizing: border-box;
+width: 100vw !important;
+height: 100vh !important;
+}
+
+header{
+height: 60px !important;
+background-color: whitesmoke;
+opacity: 0.5;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+button:active, button:focus { 
+outline: none !important; 
+}
+
+#logo{
+height: 40px !important;
+}
+
+#menu-hamburguer{
+height: 20px !important;
+}
+
+#collapsibleNavbar{
+background-color: whitesmoke;
+margin-left: -17px;
+margin-right: -17px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right:20px;
+
+}
+
+a.nav-link{
+color: rgb(83,0,0);
+font-family: 'Andika' !important;
+font-size: 20px;
+font-weight: 600;
+}
+
+a.nav-link:hover{
+color: red !important;
+}
+
+.banner{
+display: flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+flex-direction: column;
+-ms-flex-direction: column;
+-webkit-flex-direction: column;
+width:100vw;
+height:90vh; 
+padding-top: 60px;
+padding-left:20px;
+padding-right:20px;
+align-items: center;
+position:relative;
+
+}
+
+#banner-figure{
+width: 80%;
+height:70% !important; 
+padding-top: 20px;
+padding-bottom: 5px;
+border-radius: 40px;
+}
+
+#p-banner-content{
+width: 80%;
+font-family: "Andika";
+font-size: 40px;
+text-align: center;
+font-weight: 600;
+color:rgb(153, 0, 153);
+}
+
+button#call-to-action{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+#call-to-action{
+height:30px !important; 
+background-color: rgb(153, 0, 153);
+border: none;
+border-radius: 5px;
+color: white;
+margin-top: -10px;
+padding: 2px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: "Andika";
+font-size: 20px;   
+align-self: center;
+cursor:pointer;
+}
+
+#call-to-action:hover{
+background-color: rgb(95, 28, 37);
+}
+
+.footer-site{
+display:flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+width:100vw;
+height:10vh !important;
+background-image: url("../images/wood.jpeg");
+background-size: cover;
+position: fixed;
+align-items: center;
+justify-content: center;
+}
+
+.footer-site > p {
+font-family: "Allan";
+font-size: 15px;
+text-align: center;
+color:rgb(83,0,0);
+}
+
+@media (min-width:500px) and (max-width:999px){
+#p-banner-content{
+font-size: 30px;
+}
+
+
+button#call-to-action{
+font-size: 16px;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+       
+}
+
+@media (max-width:499px){
+#p-banner-content{
+font-size: 30px;
+}
+
+button#call-to-action{
+font-size: 16px;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+}
